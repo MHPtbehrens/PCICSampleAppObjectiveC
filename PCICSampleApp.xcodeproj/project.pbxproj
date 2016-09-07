@@ -15,6 +15,12 @@
 		6A13F3BB1D8010E300AD0333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A13F3B91D8010E300AD0333 /* LaunchScreen.storyboard */; };
 		6A13F3C61D8010E300AD0333 /* PCICSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13F3C51D8010E300AD0333 /* PCICSampleAppTests.m */; };
 		6A13F3D11D8010E300AD0333 /* PCICSampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13F3D01D8010E300AD0333 /* PCICSampleAppUITests.m */; };
+		6A557AFB1D8011E100DC2544 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 6A557AF31D8011E100DC2544 /* CHANGELOG */; };
+		6A557AFC1D8011E100DC2544 /* de.bitstadium.HockeySDK-iOS-4.1.0.docset in Resources */ = {isa = PBXBuildFile; fileRef = 6A557AF41D8011E100DC2544 /* de.bitstadium.HockeySDK-iOS-4.1.0.docset */; };
+		6A557AFD1D8011E100DC2544 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A557AF61D8011E100DC2544 /* HockeySDK.framework */; };
+		6A557AFE1D8011E100DC2544 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A557AF81D8011E100DC2544 /* HockeySDK.framework */; };
+		6A557AFF1D8011E100DC2544 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A557AF91D8011E100DC2544 /* LICENSE */; };
+		6A557B001D8011E100DC2544 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6A557AFA1D8011E100DC2544 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		6A13F3CC1D8010E300AD0333 /* PCICSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCICSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A13F3D01D8010E300AD0333 /* PCICSampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCICSampleAppUITests.m; sourceTree = "<group>"; };
 		6A13F3D21D8010E300AD0333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A557AF31D8011E100DC2544 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		6A557AF41D8011E100DC2544 /* de.bitstadium.HockeySDK-iOS-4.1.0.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "de.bitstadium.HockeySDK-iOS-4.1.0.docset"; sourceTree = "<group>"; };
+		6A557AF61D8011E100DC2544 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		6A557AF81D8011E100DC2544 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		6A557AF91D8011E100DC2544 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6A557AFA1D8011E100DC2544 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A557AFE1D8011E100DC2544 /* HockeySDK.framework in Frameworks */,
+				6A557AFD1D8011E100DC2544 /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		6A13F39F1D8010E300AD0333 = {
 			isa = PBXGroup;
 			children = (
+				6A557AF21D8011E100DC2544 /* HockeySDK-iOS */,
 				6A13F3AA1D8010E300AD0333 /* PCICSampleApp */,
 				6A13F3C41D8010E300AD0333 /* PCICSampleAppTests */,
 				6A13F3CF1D8010E300AD0333 /* PCICSampleAppUITests */,
@@ -138,6 +153,35 @@
 				6A13F3D21D8010E300AD0333 /* Info.plist */,
 			);
 			path = PCICSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		6A557AF21D8011E100DC2544 /* HockeySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A557AF31D8011E100DC2544 /* CHANGELOG */,
+				6A557AF41D8011E100DC2544 /* de.bitstadium.HockeySDK-iOS-4.1.0.docset */,
+				6A557AF51D8011E100DC2544 /* HockeySDKCrashOnly */,
+				6A557AF71D8011E100DC2544 /* HockeySDKCrashOnlyExtension */,
+				6A557AF91D8011E100DC2544 /* LICENSE */,
+				6A557AFA1D8011E100DC2544 /* README.md */,
+			);
+			path = "HockeySDK-iOS";
+			sourceTree = "<group>";
+		};
+		6A557AF51D8011E100DC2544 /* HockeySDKCrashOnly */ = {
+			isa = PBXGroup;
+			children = (
+				6A557AF61D8011E100DC2544 /* HockeySDK.framework */,
+			);
+			path = HockeySDKCrashOnly;
+			sourceTree = "<group>";
+		};
+		6A557AF71D8011E100DC2544 /* HockeySDKCrashOnlyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6A557AF81D8011E100DC2544 /* HockeySDK.framework */,
+			);
+			path = HockeySDKCrashOnlyExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +251,7 @@
 				TargetAttributes = {
 					6A13F3A71D8010E300AD0333 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6WNX4U9DBF;
 					};
 					6A13F3C01D8010E300AD0333 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,8 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A557AFF1D8011E100DC2544 /* LICENSE in Resources */,
 				6A13F3BB1D8010E300AD0333 /* LaunchScreen.storyboard in Resources */,
+				6A557AFB1D8011E100DC2544 /* CHANGELOG in Resources */,
 				6A13F3B81D8010E300AD0333 /* Assets.xcassets in Resources */,
+				6A557AFC1D8011E100DC2544 /* de.bitstadium.HockeySDK-iOS-4.1.0.docset in Resources */,
 				6A13F3B61D8010E300AD0333 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +320,7 @@
 			files = (
 				6A13F3B31D8010E300AD0333 /* ViewController.m in Sources */,
 				6A13F3B01D8010E300AD0333 /* AppDelegate.m in Sources */,
+				6A557B001D8011E100DC2544 /* README.md in Sources */,
 				6A13F3AD1D8010E300AD0333 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +464,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDKCrashOnly",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDKCrashOnlyExtension",
+				);
 				INFOPLIST_FILE = PCICSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp.PCICSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8495b365-5b1d-4ad2-b7a8-de0c2f2bf128";
 			};
 			name = Debug;
 		};
@@ -426,10 +483,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDKCrashOnly",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDKCrashOnlyExtension",
+				);
 				INFOPLIST_FILE = PCICSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp.PCICSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8495b365-5b1d-4ad2-b7a8-de0c2f2bf128";
 			};
 			name = Release;
 		};
@@ -498,6 +563,7 @@
 				6A13F3D71D8010E300AD0333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A13F3D81D8010E300AD0333 /* Build configuration list for PBXNativeTarget "PCICSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +572,7 @@
 				6A13F3DA1D8010E300AD0333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A13F3DB1D8010E300AD0333 /* Build configuration list for PBXNativeTarget "PCICSampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +581,7 @@
 				6A13F3DD1D8010E300AD0333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
